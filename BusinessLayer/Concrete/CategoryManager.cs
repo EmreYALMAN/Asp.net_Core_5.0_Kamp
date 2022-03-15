@@ -32,6 +32,7 @@ namespace BusinessLayer.Concrete
         public void CategoryUpdate(Category category)
         {
             efCategoryRepository.Update(category);
+            Console.WriteLine("1234");
         }
 
         public Category GetById(int id)
